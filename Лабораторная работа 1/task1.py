@@ -9,6 +9,6 @@ sum_of_numbers = sum(numbers[:index_missing_item] + numbers[index_missing_item+1
 count_of_numbers = len(numbers)  # Нашли количество элементов всего списка
 
 # Заменяем None на среднее арифметическое
-numbers[index_missing_item]=sum_of_numbers / count_of_numbers
+numbers[index_missing_item] = sum_of_numbers / count_of_numbers
 
 print("Измененный список:", numbers)
